@@ -80,112 +80,112 @@ const HomePage = ({ data }) => {
     return (
       <div key={"social icons" + index}>
         {icons.icon === "facebook" ? (
-          <Link to={icons.url} target="_blank">
+          <Link to={icons.url} target="_blank" aria-label={icons.icon}>
             <RiFacebookBoxFill />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "twitter" ? (
-          <Link to={icons.url} target="_blank">
+          <Link to={icons.url} target="_blank" aria-label={icons.icon}>
             <RiTwitterFill />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "linkedin" ? (
-          <Link to={icons.url} target="_blank">
+          <Link to={icons.url} target="_blank" aria-label={icons.icon}>
             <RiLinkedinBoxFill />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "youtube" ? (
-          <Link to={icons.url} target="_blank">
+          <Link to={icons.url} target="_blank" aria-label={icons.icon}>
             <RiYoutubeFill />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "instagram" ? (
-          <Link to={icons.url} target="_blank">
+          <Link to={icons.url} target="_blank" aria-label={icons.icon}>
             <RiInstagramFill />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "rss" ? (
-          <Link to={icons.url} target="_blank">
+          <Link to={icons.url} target="_blank" aria-label={icons.icon}>
             <RiRssFill />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "github" ? (
-          <Link to={icons.url} target="_blank">
+          <Link to={icons.url} target="_blank" aria-label={icons.icon}>
             <RiGithubFill />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "telegram" ? (
-          <Link to={icons.url} target="_blank">
+          <Link to={icons.url} target="_blank" aria-label={icons.icon}>
             <RiTelegramFill />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "pinterest" ? (
-          <Link to={icons.url} target="_blank">
+          <Link to={icons.url} target="_blank" aria-label={icons.icon}>
             <RiPinterestFill />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "snapchat" ? (
-          <Link to={icons.url} target="_blank">
+          <Link to={icons.url} target="_blank" aria-label={icons.icon}>
             <RiSnapchatFill />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "skype" ? (
-          <Link to={icons.url} target="_blank">
+          <Link to={icons.url} target="_blank" aria-label={icons.icon}>
             <RiSkypeFill />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "wordpress" ? (
-          <Link to={icons.url} target="_blank">
+          <Link to={icons.url} target="_blank" aria-label={icons.icon}>
             <FaWordpress />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "dribbble" ? (
-          <Link to={icons.url} target="_blank">
+          <Link to={icons.url} target="_blank" aria-label={icons.icon}>
             <RiDribbbleFill />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "medium" ? (
-          <Link to={icons.url} target="_blank">
+          <Link to={icons.url} target="_blank" aria-label={icons.icon}>
             <RiMediumFill />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "behance" ? (
-          <Link to={icons.url} target="_blank">
+          <Link to={icons.url} target="_blank" aria-label={icons.icon}>
             <RiBehanceFill />
           </Link>
         ) : (
           ""
         )}
         {icons.icon === "vk" ? (
-          <Link to={icons.url} target="_blank">
+          <Link to={icons.url} target="_blank" aria-label={icons.icon}>
             <FaVk />
           </Link>
         ) : (
